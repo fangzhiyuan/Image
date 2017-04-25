@@ -7,16 +7,44 @@
 //
 
 #import "ViewController.h"
+#import "ImageBrowser.h"
 
 @interface ViewController ()
+@property(strong,nonatomic)UIImageView *imageView ;
 
+//@property(strong,nonatomic)NSString *string;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.imageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 100, 150, 150)];
+    self.imageView.image = [UIImage imageNamed:@"中国银行.jpg"];
+    self.imageView.userInteractionEnabled = YES;
+    [self.view addSubview:self.imageView];
+    
+    UITapGestureRecognizer *tap  = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(magnifyImage)];
+    
+    [self.imageView addGestureRecognizer:tap];
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+- (void)magnifyImage
+{
+
+
+    [ImageBrowser showImage:self.imageView];//调用方法
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,3 +53,30 @@
 }
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

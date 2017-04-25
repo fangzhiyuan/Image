@@ -16,6 +16,8 @@
 		21C8B6A51CEC50BA006101B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C8B6A31CEC50BA006101B8 /* LaunchScreen.storyboard */; };
 		21C8B6B01CEC50BA006101B8 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C8B6AF1CEC50BA006101B8 /* ______Tests.m */; };
 		21C8B6BB1CEC50BA006101B8 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C8B6BA1CEC50BA006101B8 /* ______UITests.m */; };
+		21C8B6CA1CEC5179006101B8 /* ImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C8B6C91CEC5179006101B8 /* ImageBrowser.m */; };
+		21C8B6CC1CEC59B7006101B8 /* 中国银行.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21C8B6CB1CEC59B7006101B8 /* 中国银行.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		21C8B6B61CEC50BA006101B8 /* 点击图片放大UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "点击图片放大UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C8B6BA1CEC50BA006101B8 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		21C8B6BC1CEC50BA006101B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21C8B6C81CEC5179006101B8 /* ImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBrowser.h; sourceTree = "<group>"; };
+		21C8B6C91CEC5179006101B8 /* ImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageBrowser.m; sourceTree = "<group>"; };
+		21C8B6CB1CEC59B7006101B8 /* 中国银行.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "中国银行.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +108,13 @@
 		21C8B6911CEC50B9006101B8 /* 点击图片放大 */ = {
 			isa = PBXGroup;
 			children = (
+				21C8B6CB1CEC59B7006101B8 /* 中国银行.jpg */,
 				21C8B6951CEC50B9006101B8 /* AppDelegate.h */,
 				21C8B6961CEC50B9006101B8 /* AppDelegate.m */,
 				21C8B6981CEC50B9006101B8 /* ViewController.h */,
 				21C8B6991CEC50B9006101B8 /* ViewController.m */,
+				21C8B6C81CEC5179006101B8 /* ImageBrowser.h */,
+				21C8B6C91CEC5179006101B8 /* ImageBrowser.m */,
 				21C8B69B1CEC50B9006101B8 /* Main.storyboard */,
 				21C8B6A11CEC50BA006101B8 /* Assets.xcassets */,
 				21C8B6A31CEC50BA006101B8 /* LaunchScreen.storyboard */,
@@ -249,6 +257,7 @@
 				21C8B6A51CEC50BA006101B8 /* LaunchScreen.storyboard in Resources */,
 				21C8B6A21CEC50BA006101B8 /* Assets.xcassets in Resources */,
 				21C8B69D1CEC50B9006101B8 /* Main.storyboard in Resources */,
+				21C8B6CC1CEC59B7006101B8 /* 中国银行.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +284,7 @@
 			files = (
 				21C8B69A1CEC50B9006101B8 /* ViewController.m in Sources */,
 				21C8B6A01CEC50B9006101B8 /* ______.xcdatamodeld in Sources */,
+				21C8B6CA1CEC5179006101B8 /* ImageBrowser.m in Sources */,
 				21C8B6971CEC50B9006101B8 /* AppDelegate.m in Sources */,
 				21C8B6941CEC50B9006101B8 /* main.m in Sources */,
 			);
@@ -500,6 +510,7 @@
 				21C8B6C11CEC50BA006101B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21C8B6C21CEC50BA006101B8 /* Build configuration list for PBXNativeTarget "点击图片放大Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +519,7 @@
 				21C8B6C41CEC50BA006101B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21C8B6C51CEC50BA006101B8 /* Build configuration list for PBXNativeTarget "点击图片放大UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +528,7 @@
 				21C8B6C71CEC50BA006101B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
